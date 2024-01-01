@@ -10,8 +10,8 @@ const Layout = () => {
      return (
           <div>
                <Header></Header>
-               <div className=" md:flex gap-10 sm:gap-3">
-               <div className=" grid grid-cols-2 md:grid lg:grid-cols-4 border border-t-orange-900">
+               <div className=" md:flex gap-10 sm:gap-3 my-5">
+               <div className=" w-[500px]">
                      <LeftSide></LeftSide>
                </div>
                <div className=" grid grid-cols-3   lg:grid-cols-12 border border-green-950">
