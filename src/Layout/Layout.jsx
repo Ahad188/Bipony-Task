@@ -8,7 +8,7 @@ import RightSide from "../Page/Home/Home/Right/RightSide";
 
 const Layout = () => {
      return (
-          <div className="md:container md:w-[1440px] mx-auto ">
+          <div className="md:container md:w-[1440px] mx-auto">
                <Header></Header>
                <div className=" md:flex md:justify-evenly gap-4 my-10">
                <div className=" w-[300px]  ">
@@ -17,7 +17,7 @@ const Layout = () => {
                <div className="md:w-[800px]  ">
                     <h3 className="ms-10">Main side</h3>
                </div>
-               <div className=" w-[400px] border border-orange-600">
+               <div className="md:w-[400px]">
                     <RightSide></RightSide>
                </div>
                </div>

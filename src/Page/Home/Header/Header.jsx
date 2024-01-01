@@ -34,7 +34,7 @@ const Header = () => {
           className="h-10 w-auto"
         />
         <div className="flex flex-col ml-2">
-          <select className="select border-gray-500 max-w-xs">
+          <select className="select border-gray-500 max-w-xs md:w-[420px] md:ms-4">
             <option>
             <FaMapPin /> Share your Address
             </option>
@@ -55,12 +55,14 @@ const Header = () => {
             <TiWorld /> English
           </div>
           <ul className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-            <li>
-              <a>Spanish</a>
-            </li>
-            <li>
-              <a>Қазақ</a>
-            </li>
+          <li><a>Spanish</a></li>
+             <li><a>Қазақ</a></li>
+             <li><a>Հայերեն</a></li>
+             <li><a>Français</a></li>
+             <li><a>Հայերեն</a></li>
+             <li><a>Ky</a></li>
+             <li><a>o'zbek</a></li>
+             <li><a>English</a></li>
             {/* Add more languages */}
           </ul>
         </div>
