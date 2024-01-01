@@ -23,7 +23,7 @@ const Header = () => {
   return (
      
      <nav
-      className={`w-full mx-auto p-2 lg:w-[1440px] flex justify-between sticky top-0 bg-[rgba(108, 107, 107, 0.13)] ${
+      className={`w-full z-50 mx-auto p-2 lg:w-[1440px] h-[80px] flex justify-between fixed top-0 bg-white ${
         scrolled ? "border-b-gray-300 shadow-md" : ""
       }`}
     >
@@ -45,7 +45,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex items-center">
+      <div className="flex items-center gap-5">
         <div className="dropdown group">
           <div
             tabIndex={0}
@@ -67,7 +67,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <button className="btn ml-2 hidden md:block">
+        <button className="btn mr-3 hidden md:block">
           <BsPerson /> Login
         </button>
       </div>

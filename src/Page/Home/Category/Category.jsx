@@ -10,7 +10,7 @@ import { FaCircleInfo } from "react-icons/fa6";
             <div className=" overlay"></div>
         
             <h2 className="absolute top-[50%] left-16 text-5xl z-10 font-bold text-white">KFC</h2>
-            <div className="absolute top-[70%] left-16 btn font-bold z-10 flex items-center">
+            <div className="absolute top-[70%] left-16 btn font-bold flex items-center">
               <FaStar />
               <div>4.7<span className="font-normal block">200+</span></div>
               <div className="absolute top-[1%] left-28 btn"> <FaCircleInfo /></div>
