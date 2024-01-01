@@ -8,16 +8,16 @@ import RightSide from "../Page/Home/Home/Right/RightSide";
 
 const Layout = () => {
      return (
-          <div>
+          <div className="md:container md:w-[1440px] mx-auto ">
                <Header></Header>
-               <div className=" md:flex gap-10 sm:gap-3 my-5">
-               <div className=" w-[500px]">
+               <div className=" md:flex md:justify-evenly gap-4 my-10">
+               <div className=" w-[300px]  ">
                      <LeftSide></LeftSide>
                </div>
-               <div className=" grid grid-cols-3   lg:grid-cols-12 border border-green-950">
-                    <h3>Main side</h3>
+               <div className="md:w-[800px]  ">
+                    <h3 className="ms-10">Main side</h3>
                </div>
-               <div className=" grid grid-cols-2 md:grid lg:grid-cols-4 border border-red-800">
+               <div className=" w-[400px] border border-orange-600">
                     <RightSide></RightSide>
                </div>
                </div>

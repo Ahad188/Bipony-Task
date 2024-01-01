@@ -1,9 +1,9 @@
-import React from 'react';
+ 
 
 const RightSide = () => {
      return (
-          <div>
-               <h3>This is  a right side</h3>
+          <div className="w-[450px] mr-10 p-10 border-red-600">
+               <h3 className="text-bold">This is  a right side</h3>
           </div>
      );
 };

@@ -1,5 +1,5 @@
 
-import { IoPinSharp } from "react-icons/io5";
+import { FaMapPin } from "react-icons/fa";
 import { TiWorld } from "react-icons/ti"; // Assuming TiWorld is the correct icon for languages
 import { BsPerson } from "react-icons/bs"; // Assuming BsPerson is the correct icon for login
  
@@ -21,7 +21,7 @@ const Header = () => {
   }, []);
 
   return (
-     <>
+     
      <nav
       className={`w-full mx-auto p-2 lg:w-[1440px] flex justify-between sticky top-0 bg-gray-50 ${
         scrolled ? "border-b-gray-300 shadow-md" : ""
@@ -36,7 +36,7 @@ const Header = () => {
         <div className="flex flex-col ml-2">
           <select className="select border-gray-500 max-w-xs">
             <option>
-              <IoPinSharp /> Share your Address
+            <FaMapPin /> Share your Address
             </option>
             <option className="text-xl bg-slate-200 p-2 rounded-3xl">
               Add a new Address +
@@ -70,7 +70,7 @@ const Header = () => {
         </button>
       </div>
     </nav>
-   </>
+   
   );
 };
 
