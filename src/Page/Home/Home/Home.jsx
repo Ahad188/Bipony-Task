@@ -1,9 +1,11 @@
+import Category from "../Category/Category";
+
  
 
 const Home = () => {
      return (
           <div className="w-[450px] mr-10">
-               home page
+                <Category></Category>
           </div>
      );
 };

@@ -23,7 +23,7 @@ const Header = () => {
   return (
      
      <nav
-      className={`w-full mx-auto p-2 lg:w-[1440px] flex justify-between sticky top-0 bg-gray-50 ${
+      className={`w-full mx-auto p-2 lg:w-[1440px] flex justify-between sticky top-0 bg-[rgba(108, 107, 107, 0.13)] ${
         scrolled ? "border-b-gray-300 shadow-md" : ""
       }`}
     >
@@ -67,7 +67,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <button className="btn ml-2">
+        <button className="btn ml-2 hidden md:block">
           <BsPerson /> Login
         </button>
       </div>

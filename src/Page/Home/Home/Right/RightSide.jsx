@@ -2,8 +2,8 @@
 
 const RightSide = () => {
      return (
-          <div className="  p-10 ">
-                <div className="  h-[700px] rounded-2xl bg-white">
+          <div className="  md:p-10 ">
+                <div className="  h-[700px] rounded-2xl bg-white ">
                     <h3 className="text-xl font-bold p-5">Cart</h3>
                     <div className="w-[200px] mx-auto mt-20 ms-28">
                          <img src="https://avatars.mds.yandex.net/get-bunker/61205/a11b38948b6d328e2f739d602fa36b15b2680ba8/svg" alt="" />
