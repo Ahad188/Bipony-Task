@@ -1,8 +1,11 @@
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
 import { FaCircleInfo } from "react-icons/fa6";
 import { FaMotorcycle } from "react-icons/fa6";
+import Card from "../Card/Card";
  
  const Category = () => {
+    
      return (
           <div>
           <div className=" md:w-[700px] relative"  >
@@ -21,6 +24,8 @@ import { FaMotorcycle } from "react-icons/fa6";
                     <FaMotorcycle className="ms-8 h-[40px] w-[40px]" />
                     <h3 className="font-bold text-[#5ac31a] p-2">Free delivery <br />off any order</h3>
           </div>
+          
+                   
         </div>
         
      );

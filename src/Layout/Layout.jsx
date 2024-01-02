@@ -14,7 +14,7 @@ const Layout = () => {
                <div className=" w-[300px]  ">
                      <LeftSide></LeftSide>
                </div>
-               <div className="md:w-[800px]    ">
+               <div className="md:w-[900px]">
                      <Outlet></Outlet>
                </div>
                <div className="md:w-[400px]">
