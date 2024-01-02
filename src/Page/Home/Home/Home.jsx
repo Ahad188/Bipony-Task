@@ -51,9 +51,10 @@ const Home = () => {
           <h3 className="font-bold text-xl my-4">Боксы</h3>
                      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                           {
-                                menu1.slice(3,6).map((item,index) => <Card
+                                menu1.slice(3,8).map((item,index) => <Card
                                    key={index}
                                    item={item}
+                                   
                                ></Card>)
                           }
                      </div>
