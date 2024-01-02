@@ -16,7 +16,7 @@ const Home = () => {
      // console.log(menu);
      const menu1  = menu.filter(item => item.category === 'Комбо Баскеты');
      console.log(menu1);
-     // const курочка  = menu.filter(item => item.category === 'Сочная курочка');
+     const menu2  = menu.filter(item => item.category === 'Сочная курочка');
 
      return (
           <section className="">
@@ -29,7 +29,7 @@ const Home = () => {
           <h3 className="font-bold text-xl my-4">Новинки</h3>
                      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 ">
                           {
-                                menu1.slice(0,3).map((item,index) => <Card
+                                menu1?.slice(0,3).map((item,index) => <Card
                                    key={index}
                                    item={item}
                                ></Card>)
@@ -40,7 +40,7 @@ const Home = () => {
           <h3 className="font-bold text-xl my-4">Комбо Баскеты</h3>
                      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                           {
-                                menu1.slice(5,7).map((item,index) => <Card
+                                menu2?.slice(5,7).map((item,index) => <Card
                                    key={index}
                                    item={item}
                                ></Card>)
@@ -51,7 +51,7 @@ const Home = () => {
           <h3 className="font-bold text-xl my-4">Боксы</h3>
                      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                           {
-                                menu1.slice(3,8).map((item,index) => <Card
+                                menu1?.slice(3,8).map((item,index) => <Card
                                    key={index}
                                    item={item}
                                    
