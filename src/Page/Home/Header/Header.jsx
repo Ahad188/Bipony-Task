@@ -23,8 +23,8 @@ const Header = () => {
   return (
      
      <nav
-      className={`w-full z-50 mx-auto p-2 lg:w-[1440px] h-[80px] flex justify-between fixed top-0 bg-white ${
-        scrolled ? "border-b-gray-300 shadow-md" : ""
+      className={`w-full z-50 mx-auto p-2 lg:w-[1440px] h-[80px] flex justify-between fixed top-0 bg-[rgba(108, 107, 107, 0.13)] ${
+        scrolled ? "border-b-gray-300 shadow-md bg-white" : ""
       }`}
     >
       <div className="logo flex items-center">
@@ -35,7 +35,7 @@ const Header = () => {
         />
         <div className="flex flex-col ml-2">
           <select className="select border-gray-500 max-w-xs md:w-[420px] md:ms-4">
-            <option>
+            <option className="font-bold text-xl">
             <FaMapPin /> Share your Address
             </option>
             <option className="text-xl bg-slate-200 p-2 rounded-3xl">

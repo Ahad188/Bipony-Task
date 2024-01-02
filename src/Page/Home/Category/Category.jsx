@@ -1,5 +1,6 @@
 import { FaStar } from "react-icons/fa6";
 import { FaCircleInfo } from "react-icons/fa6";
+import { FaMotorcycle } from "react-icons/fa6";
  
  const Category = () => {
      return (
@@ -15,6 +16,10 @@ import { FaCircleInfo } from "react-icons/fa6";
               <div>4.7<span className="font-normal block">200+</span></div>
               <div className="absolute top-[1%] left-28 btn"> <FaCircleInfo /></div>
             </div>
+          </div>
+          <div className="bg-[#5bc31a44] mx-auto w-[400px] md:w-[600px] h-20 rounded-2xl flex items-center gap-3 md:ms-12">
+                    <FaMotorcycle className="ms-8 h-[40px] w-[40px]" />
+                    <h3 className="font-bold text-[#5ac31a] p-2">Free delivery <br />off any order</h3>
           </div>
         </div>
         
