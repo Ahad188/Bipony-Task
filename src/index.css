@@ -8,8 +8,8 @@ body{
 .overlay {
   position: absolute;
   top: 18px;
-  left: 14px;
-  width: 100%;
+  left: 8px;
+  width: 90%;
   height: 92%;
   /* padding: 10px; */
   border-radius: 10px;

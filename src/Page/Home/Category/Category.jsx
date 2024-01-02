@@ -9,7 +9,7 @@ import Card from "../Card/Card";
      return (
           <div>
           <div className=" md:w-[700px] relative"  >
-            <img className="h-[400px] md:w-[100%] rounded-3xl md:p-4 bg-opacity-90" src="https://eda.yandex/images/3378693/049e8232c93c3ce2b19dc94a1da9ba26-1100x825.jpg" alt="" />
+            <img className="h-[400px] w-[90%] md:w-[100%]  rounded-3xl md:p-4 bg-opacity-90" src="https://eda.yandex/images/3378693/049e8232c93c3ce2b19dc94a1da9ba26-1100x825.jpg" alt="" />
         
             <div className=" overlay"></div>
         
